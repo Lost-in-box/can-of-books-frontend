@@ -15,11 +15,9 @@ export class Content extends Component {
 
   componentDidMount = () => {
 
-    this.props.auth0.getIdTokenClaims().then(tokenResponse => {
-console.log(tokenResponse);
+    this.props.auth0.getIdTokenClaims().then(tokenResponse => {;
       const jwt = tokenResponse.__raw;
      
-
       const config = {
         headers: {
           "Authorization": `Bearer ${jwt}`
