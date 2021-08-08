@@ -1,11 +1,11 @@
 import React from 'react';
-import LoginButton from './login'
-import LogoutButton from './logout'
+import LoginButton from './Login'
+import LogoutButton from './Logout'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from "react-router-dom";
-import './header.css';
-import Profile from '../screens/profile';
+import './Header.css';
+import Profile from '../screens/Profile';
 
 class Header extends React.Component {
     

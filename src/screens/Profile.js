@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { withAuth0 } from '@auth0/auth0-react';
-import Content from './content';
+import Content from './Content';
 
 class Profile extends Component {
   render() {
