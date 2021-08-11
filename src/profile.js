@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { withAuth0 } from '@auth0/auth0-react';
 import Content from './content';
 import BestBooks from './bestbook';
+import BookForm from './booksFormModal';
 
 class Profile extends Component {
   render() {
@@ -14,7 +15,7 @@ class Profile extends Component {
         <div>Hello {user.name}</div>
         <div>Your Email: {user.email}</div>
         <BestBooks />
-        
+        <BookForm/>
       
         <Content />
       </div>
